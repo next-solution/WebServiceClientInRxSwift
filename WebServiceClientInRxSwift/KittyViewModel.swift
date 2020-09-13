@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+class KittyViewModel {
+    var displayText = "🐱"
+}

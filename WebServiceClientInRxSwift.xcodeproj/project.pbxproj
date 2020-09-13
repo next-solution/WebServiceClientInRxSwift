@@ -3,10 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AF21ED21A1E932C44C8DE66 /* Pods_WebServiceClientInRxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD5A817CC1473DB48F7BA81 /* Pods_WebServiceClientInRxSwiftTests.framework */; };
+		847A8623985DE5A26117E1DC /* Pods_WebServiceClientInRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07834F5C96BD9C8DE279042 /* Pods_WebServiceClientInRxSwift.framework */; };
+		D3A18654250E02AA00AF5A70 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A18653250E02AA00AF5A70 /* AppCoordinator.swift */; };
+		D3A18656250E155C00AF5A70 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A18655250E155C00AF5A70 /* Endpoint.swift */; };
+		D3A18658250E161200AF5A70 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A18657250E161200AF5A70 /* Api.swift */; };
+		D3A1865A250E170B00AF5A70 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A18659250E170B00AF5A70 /* Client.swift */; };
+		D3A1865D250E271900AF5A70 /* OAuth2 in Frameworks */ = {isa = PBXBuildFile; productRef = D3A1865C250E271900AF5A70 /* OAuth2 */; };
+		D3A1865F250E2C3A00AF5A70 /* OauthSwiftInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1865E250E2C3A00AF5A70 /* OauthSwiftInterceptor.swift */; };
+		D3A4CEB9250E9BE100E03CED /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4CEB8250E9BE100E03CED /* Restaurant.swift */; };
+		D3A4CEBB250E9C8700E03CED /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4CEBA250E9C8700E03CED /* RestaurantService.swift */; };
+		D3A4CEBD250E9F3300E03CED /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = D3A4CEBC250E9F3300E03CED /* restaurants.json */; };
+		D3A4CEBF250E9FDC00E03CED /* RestaurantsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4CEBE250E9FDC00E03CED /* RestaurantsListViewModel.swift */; };
+		D3A4CEC1250EA0E700E03CED /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4CEC0250EA0E700E03CED /* RestaurantViewModel.swift */; };
+		D3A4CEC3250EA47F00E03CED /* KittyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4CEC2250EA47F00E03CED /* KittyDetailsViewController.swift */; };
+		D3A4CEC5250EA4BE00E03CED /* KittyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4CEC4250EA4BE00E03CED /* KittyViewModel.swift */; };
+		D3A4CEC7250EA55D00E03CED /* KittyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A4CEC6250EA55D00E03CED /* KittyStoryboard.storyboard */; };
 		D3BE721D250E009E00AA35DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE721C250E009E00AA35DD /* AppDelegate.swift */; };
 		D3BE721F250E009E00AA35DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE721E250E009E00AA35DD /* SceneDelegate.swift */; };
 		D3BE7221250E009E00AA35DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE7220250E009E00AA35DD /* ViewController.swift */; };
@@ -15,6 +31,7 @@
 		D3BE7229250E009F00AA35DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BE7227250E009F00AA35DD /* LaunchScreen.storyboard */; };
 		D3BE7234250E009F00AA35DD /* WebServiceClientInRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE7233250E009F00AA35DD /* WebServiceClientInRxSwiftTests.swift */; };
 		D3BE723F250E009F00AA35DD /* WebServiceClientInRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE723E250E009F00AA35DD /* WebServiceClientInRxSwiftUITests.swift */; };
+		F3D72754025951149E577368 /* Pods_WebServiceClientInRxSwift_WebServiceClientInRxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA582873A449D2E1D6733A6 /* Pods_WebServiceClientInRxSwift_WebServiceClientInRxSwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1264DD2CF6FA1E2839EBAD76 /* Pods-WebServiceClientInRxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServiceClientInRxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-WebServiceClientInRxSwiftTests/Pods-WebServiceClientInRxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CFF1782BABA35E50A857BF9 /* Pods-WebServiceClientInRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServiceClientInRxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-WebServiceClientInRxSwiftTests/Pods-WebServiceClientInRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BA582873A449D2E1D6733A6 /* Pods_WebServiceClientInRxSwift_WebServiceClientInRxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebServiceClientInRxSwift_WebServiceClientInRxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953202425D3A680764D0112E /* Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5BBC05FEFFAC1DA3407FAD0 /* Pods-WebServiceClientInRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServiceClientInRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-WebServiceClientInRxSwift/Pods-WebServiceClientInRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		AEE168164698321C68581A76 /* Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE756303AA0FB1FB94736A4E /* Pods-WebServiceClientInRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebServiceClientInRxSwift.release.xcconfig"; path = "Target Support Files/Pods-WebServiceClientInRxSwift/Pods-WebServiceClientInRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		D3A18653250E02AA00AF5A70 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D3A18655250E155C00AF5A70 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		D3A18657250E161200AF5A70 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		D3A18659250E170B00AF5A70 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		D3A1865E250E2C3A00AF5A70 /* OauthSwiftInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthSwiftInterceptor.swift; sourceTree = "<group>"; };
+		D3A4CEB8250E9BE100E03CED /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		D3A4CEBA250E9C8700E03CED /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		D3A4CEBC250E9F3300E03CED /* restaurants.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		D3A4CEBE250E9FDC00E03CED /* RestaurantsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsListViewModel.swift; sourceTree = "<group>"; };
+		D3A4CEC0250EA0E700E03CED /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		D3A4CEC2250EA47F00E03CED /* KittyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyDetailsViewController.swift; sourceTree = "<group>"; };
+		D3A4CEC4250EA4BE00E03CED /* KittyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyViewModel.swift; sourceTree = "<group>"; };
+		D3A4CEC6250EA55D00E03CED /* KittyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KittyStoryboard.storyboard; sourceTree = "<group>"; };
 		D3BE7219250E009E00AA35DD /* WebServiceClientInRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServiceClientInRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BE721C250E009E00AA35DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3BE721E250E009E00AA35DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +86,8 @@
 		D3BE723A250E009F00AA35DD /* WebServiceClientInRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebServiceClientInRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3BE723E250E009F00AA35DD /* WebServiceClientInRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceClientInRxSwiftUITests.swift; sourceTree = "<group>"; };
 		D3BE7240250E009F00AA35DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD5A817CC1473DB48F7BA81 /* Pods_WebServiceClientInRxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebServiceClientInRxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07834F5C96BD9C8DE279042 /* Pods_WebServiceClientInRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebServiceClientInRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847A8623985DE5A26117E1DC /* Pods_WebServiceClientInRxSwift.framework in Frameworks */,
+				D3A1865D250E271900AF5A70 /* OAuth2 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF21ED21A1E932C44C8DE66 /* Pods_WebServiceClientInRxSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D72754025951149E577368 /* Pods_WebServiceClientInRxSwift_WebServiceClientInRxSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DA9B7D29E260ADC9B591037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F07834F5C96BD9C8DE279042 /* Pods_WebServiceClientInRxSwift.framework */,
+				3BA582873A449D2E1D6733A6 /* Pods_WebServiceClientInRxSwift_WebServiceClientInRxSwiftUITests.framework */,
+				DFD5A817CC1473DB48F7BA81 /* Pods_WebServiceClientInRxSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBB808AC16AC6F653159DF17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5BBC05FEFFAC1DA3407FAD0 /* Pods-WebServiceClientInRxSwift.debug.xcconfig */,
+				CE756303AA0FB1FB94736A4E /* Pods-WebServiceClientInRxSwift.release.xcconfig */,
+				AEE168164698321C68581A76 /* Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.debug.xcconfig */,
+				953202425D3A680764D0112E /* Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.release.xcconfig */,
+				2CFF1782BABA35E50A857BF9 /* Pods-WebServiceClientInRxSwiftTests.debug.xcconfig */,
+				1264DD2CF6FA1E2839EBAD76 /* Pods-WebServiceClientInRxSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D3BE7210250E009E00AA35DD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +149,8 @@
 				D3BE7232250E009F00AA35DD /* WebServiceClientInRxSwiftTests */,
 				D3BE723D250E009F00AA35DD /* WebServiceClientInRxSwiftUITests */,
 				D3BE721A250E009E00AA35DD /* Products */,
+				BBB808AC16AC6F653159DF17 /* Pods */,
+				8DA9B7D29E260ADC9B591037 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +174,19 @@
 				D3BE7225250E009F00AA35DD /* Assets.xcassets */,
 				D3BE7227250E009F00AA35DD /* LaunchScreen.storyboard */,
 				D3BE722A250E009F00AA35DD /* Info.plist */,
+				D3A18653250E02AA00AF5A70 /* AppCoordinator.swift */,
+				D3A18655250E155C00AF5A70 /* Endpoint.swift */,
+				D3A18657250E161200AF5A70 /* Api.swift */,
+				D3A18659250E170B00AF5A70 /* Client.swift */,
+				D3A1865E250E2C3A00AF5A70 /* OauthSwiftInterceptor.swift */,
+				D3A4CEB8250E9BE100E03CED /* Restaurant.swift */,
+				D3A4CEBA250E9C8700E03CED /* RestaurantService.swift */,
+				D3A4CEBC250E9F3300E03CED /* restaurants.json */,
+				D3A4CEBE250E9FDC00E03CED /* RestaurantsListViewModel.swift */,
+				D3A4CEC0250EA0E700E03CED /* RestaurantViewModel.swift */,
+				D3A4CEC2250EA47F00E03CED /* KittyDetailsViewController.swift */,
+				D3A4CEC4250EA4BE00E03CED /* KittyViewModel.swift */,
+				D3A4CEC6250EA55D00E03CED /* KittyStoryboard.storyboard */,
 			);
 			path = WebServiceClientInRxSwift;
 			sourceTree = "<group>";
@@ -135,15 +216,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3BE7243250E009F00AA35DD /* Build configuration list for PBXNativeTarget "WebServiceClientInRxSwift" */;
 			buildPhases = (
+				989FAE5D5075E696C942DC40 /* [CP] Check Pods Manifest.lock */,
 				D3BE7215250E009E00AA35DD /* Sources */,
 				D3BE7216250E009E00AA35DD /* Frameworks */,
 				D3BE7217250E009E00AA35DD /* Resources */,
+				641B688F3852B5C4C8C7764E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WebServiceClientInRxSwift;
+			packageProductDependencies = (
+				D3A1865C250E271900AF5A70 /* OAuth2 */,
+			);
 			productName = WebServiceClientInRxSwift;
 			productReference = D3BE7219250E009E00AA35DD /* WebServiceClientInRxSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3BE7246250E009F00AA35DD /* Build configuration list for PBXNativeTarget "WebServiceClientInRxSwiftTests" */;
 			buildPhases = (
+				F12632A67F8F9207DFC04074 /* [CP] Check Pods Manifest.lock */,
 				D3BE722B250E009F00AA35DD /* Sources */,
 				D3BE722C250E009F00AA35DD /* Frameworks */,
 				D3BE722D250E009F00AA35DD /* Resources */,
@@ -170,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3BE7249250E009F00AA35DD /* Build configuration list for PBXNativeTarget "WebServiceClientInRxSwiftUITests" */;
 			buildPhases = (
+				B1D1480FFD74D1BF0591C659 /* [CP] Check Pods Manifest.lock */,
 				D3BE7236250E009F00AA35DD /* Sources */,
 				D3BE7237250E009F00AA35DD /* Frameworks */,
 				D3BE7238250E009F00AA35DD /* Resources */,
+				B0FE7E95211ADA2EEB7F2EE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +305,9 @@
 				Base,
 			);
 			mainGroup = D3BE7210250E009E00AA35DD;
+			packageReferences = (
+				D3A1865B250E271900AF5A70 /* XCRemoteSwiftPackageReference "OAuth2" */,
+			);
 			productRefGroup = D3BE721A250E009E00AA35DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +324,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A4CEC7250EA55D00E03CED /* KittyStoryboard.storyboard in Resources */,
+				D3A4CEBD250E9F3300E03CED /* restaurants.json in Resources */,
 				D3BE7229250E009F00AA35DD /* LaunchScreen.storyboard in Resources */,
 				D3BE7226250E009F00AA35DD /* Assets.xcassets in Resources */,
 				D3BE7224250E009E00AA35DD /* Main.storyboard in Resources */,
@@ -254,14 +348,128 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		641B688F3852B5C4C8C7764E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebServiceClientInRxSwift/Pods-WebServiceClientInRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebServiceClientInRxSwift/Pods-WebServiceClientInRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebServiceClientInRxSwift/Pods-WebServiceClientInRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		989FAE5D5075E696C942DC40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebServiceClientInRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0FE7E95211ADA2EEB7F2EE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D1480FFD74D1BF0591C659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12632A67F8F9207DFC04074 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebServiceClientInRxSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3BE7215250E009E00AA35DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A18654250E02AA00AF5A70 /* AppCoordinator.swift in Sources */,
+				D3A4CEC1250EA0E700E03CED /* RestaurantViewModel.swift in Sources */,
+				D3A1865A250E170B00AF5A70 /* Client.swift in Sources */,
 				D3BE7221250E009E00AA35DD /* ViewController.swift in Sources */,
+				D3A1865F250E2C3A00AF5A70 /* OauthSwiftInterceptor.swift in Sources */,
+				D3A4CEC3250EA47F00E03CED /* KittyDetailsViewController.swift in Sources */,
 				D3BE721D250E009E00AA35DD /* AppDelegate.swift in Sources */,
 				D3BE721F250E009E00AA35DD /* SceneDelegate.swift in Sources */,
+				D3A4CEC5250EA4BE00E03CED /* KittyViewModel.swift in Sources */,
+				D3A18656250E155C00AF5A70 /* Endpoint.swift in Sources */,
+				D3A4CEBF250E9FDC00E03CED /* RestaurantsListViewModel.swift in Sources */,
+				D3A18658250E161200AF5A70 /* Api.swift in Sources */,
+				D3A4CEBB250E9C8700E03CED /* RestaurantService.swift in Sources */,
+				D3A4CEB9250E9BE100E03CED /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +640,7 @@
 		};
 		D3BE7244250E009F00AA35DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BBC05FEFFAC1DA3407FAD0 /* Pods-WebServiceClientInRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +659,7 @@
 		};
 		D3BE7245250E009F00AA35DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE756303AA0FB1FB94736A4E /* Pods-WebServiceClientInRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +678,7 @@
 		};
 		D3BE7247250E009F00AA35DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFF1782BABA35E50A857BF9 /* Pods-WebServiceClientInRxSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +701,7 @@
 		};
 		D3BE7248250E009F00AA35DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1264DD2CF6FA1E2839EBAD76 /* Pods-WebServiceClientInRxSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +724,7 @@
 		};
 		D3BE724A250E009F00AA35DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE168164698321C68581A76 /* Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +745,7 @@
 		};
 		D3BE724B250E009F00AA35DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953202425D3A680764D0112E /* Pods-WebServiceClientInRxSwift-WebServiceClientInRxSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,6 +804,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3A1865B250E271900AF5A70 /* XCRemoteSwiftPackageReference "OAuth2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/p2/OAuth2.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3A1865C250E271900AF5A70 /* OAuth2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3A1865B250E271900AF5A70 /* XCRemoteSwiftPackageReference "OAuth2" */;
+			productName = OAuth2;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3BE7211250E009E00AA35DD /* Project object */;
 }

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_WebServiceClientInRxSwift_WebServiceClientInRxSwiftUITests : NSObject
+@end
+@implementation PodsDummy_Pods_WebServiceClientInRxSwift_WebServiceClientInRxSwiftUITests
+@end

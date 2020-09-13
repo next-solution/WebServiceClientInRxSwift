@@ -15,6 +15,13 @@ extension Api {
         return Endpoint(path: "customer/profile")
     }
 
+    static func getCategories() -> Endpoint<Customer> {
+        print("getting Categories")
+        return Endpoint(
+            method: .get,
+            path: "customer/profile")
+    }
+    
     static func patchCustomer(firstName: String, lastName: String) -> Endpoint<Customer> {
         return Endpoint(
             method: .patch,

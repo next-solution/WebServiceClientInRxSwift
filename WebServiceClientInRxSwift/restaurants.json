@@ -1,9 +1,30 @@
-//
-//  restaurants.json
-//  WebServiceClientInRxSwift
-//
-//  Created by Marcin Makurat on 13/09/2020.
-//  Copyright © 2020 Marcin Makurat. All rights reserved.
-//
-
-import Foundation
+[
+    {
+        "name": "Blue Legume",
+        "cuisine": "european"
+    },
+    {
+        "name": "dsfdsafds",
+        "cuisine": "indian"
+    },
+    {
+        "name": "Blue Legume",
+        "cuisine": "european"
+    },
+    {
+        "name": "Blue Legume",
+        "cuisine": "european"
+    },
+    {
+        "name": "Blue Legume",
+        "cuisine": "european"
+    },
+    {
+        "name": "Blue Legume",
+        "cuisine": "european"
+    },
+    {
+        "name": "dfsdfdsd",
+        "cuisine": "mexican"
+    }
+]
